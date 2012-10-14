@@ -1,0 +1,9 @@
+<span class="badge badge-success">9/23/2012</span><br/>
+Per popular request, I have added the short term forecast back on the main page.  I have also changed the way that the webcams are shown and have added a new webcam page.</br>
+<span class="badge badge-success">9/22/2012</span><br/>
+I have made extensive changes today and last night.  Everything under the Forecast, 
+Data, Mesonet, and Space tabs work.  I have also added additional pages (Rain Detail, etc)
+to some of the content.  I'm also tweaking the page layout a bit and fixed a few bugs (like
+the Warning box that had a bad link).<br/><br/>
+If you have any comments, suggestions, etc, please send them my way at <span class="badge badge-info">jrandow at ctetg dot com</span>.  
+

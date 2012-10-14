@@ -1,0 +1,243 @@
+-------------------------------------------------------------------
+SUMMARY OF AJAX ID TAGS: v9.13
+-------------------------------------------------------------------
+Example: <span class="ajax" id="ajaxtemp">77°F</span>
+
+TEMPERATURE (outdoor):
+   "ajaxtemp" ................ current temperature
+   "ajaxtempNoU" ............. current temperature (no units)
+   "ajaxtemparrow" ........... rising/falling image
+   "ajaxtemprate" ............ temperature rate
+   "ajaxtempmin" ............. min temperature today
+   "ajaxtempmax" ............. max temperature today
+   "ajax24hDiff" ............. 24h temperature difference
+   "ajaxthermometer" ......... thermometer image
+   "ajaxtempcolor" ........... current temperature in a colored box
+
+HUMIDITY:
+   "ajaxhumidity" ............ current humidity (%)
+
+DEWPOINT:
+   "ajaxdew" ................. current dew-point
+   "ajaxdewmin" .............. min dew-point today
+   "ajaxdewmax" .............. max dew-point today
+
+HUMIDEX:
+   "ajaxhumidex" ............. current humidex
+   "ajaxhumidexmin" .......... min humidex today
+   "ajaxhumidexmax" .......... max humidex today
+
+HEAT INDEX:
+   "ajaxheatidx" ............. current heat index
+   "ajaxheatidxmin" .......... min heat index today
+   "ajaxheatidxmax" .......... max heat index today
+
+WINDCHILL:
+   "ajaxwindchill" ........... current windchill
+   "ajaxwindchillmin" ........ min windchill today
+   "ajaxwindchillmax" ........ max windchill today
+
+FEELS LIKE:
+   "ajaxfeelslike" ........... current feels like (temperature)
+   "ajaxheatcolorword" ....... current colored heat/chill word
+
+APPARENT TEMPERATURE:
+   "ajaxapparenttemp" ........ current apparent temperature
+   "ajaxapparenttempmin" ..... min apparent temperature today
+   "ajaxapparenttempmax" ..... max apparent temperature today
+
+PRESSURE / BARO:
+   "ajaxbaro" ................ current baro pressure
+   "ajaxbaroNoU" ............. current baro pressure (no units)
+   "ajaxbarotrend" ........... current baro trend (units)
+   "gizmobarotrend" .......... current baro trend (units)
+   "ajaxbaroarrow" ........... rising/falling image (up/down)
+   "ajaxbarotrendtext" ....... baro trend text (rising/steady/falling)
+   "ajaxbaromin" ............. min baro pressure today
+   "ajaxbaromax" ............. max baro pressure today
+
+WIND SPEEDS:
+   "ajaxmaxgust" ............. max gust
+   "ajaxwindmaxgust" ......... max gust ?
+   "ajaxwindmaxgusttime" ..... max gust time (hh:mm)
+   "ajaxwindmaxavg" .......... current max average speed
+   "ajaxwind" ................ current wind speed
+   "ajaxwindNoU" ............. current wind speed (no units)
+   "ajaxwinduom" ............. hides wind units of measure when calm
+   "ajaxgust" ................ current gust speed
+   "ajaxgustNoU" ............. current gust speed (no units)
+   "ajaxgustuom" ............. hides gust units of measure when calm
+   "ajaxbeaufortnum" ......... wind beaufort number
+   "ajaxbeaufort" ............ wind beaufort name
+
+WIND DIRECTION:
+   "ajaxwinddir" ............. wind direction (name e.g. NNW)
+   "ajaxwinddeg" ............. wind direction in degrees (e.g. 338°)
+
+WIND ICONS:
+   "ajaxwindicon" ............ wind icon arrow direction image (14x14)
+   "ajaxwindiconwr" .......... wind rose image
+
+SOLAR RADIATION / UV INDEX
+   "ajaxsolar" ............... current solar radiation
+   "ajaxsolarpct" ............ percent solar radiation
+   "ajaxuv" .................. current UV level
+   "ajaxuvNoD" ............... current UV level (no decimal)
+   "ajaxuvburnrate" .......... skin burn rate in minutes at current UV level
+   "ajaxuvword" .............. None, Low, Medium, High, Very High, Extreme.
+   "ajaxuvimg" ............... UV picture
+
+RAIN:
+   "ajaxrainratehr" .......... current rain rate per hour
+   "ajaxrainratemax" ......... max rain rate
+
+   "ajaxrain" ...............  rain total Today
+   "ajaxrainNoU" ............. rain total Today (no units)
+   "ajaxrainYes" ............. rain total Yesterday
+   "ajaxrainmo" .............. rain total for this Month
+   "ajaxrainyr" .............. rain total for this Year
+
+   "ajaxrainSun" ............. rain total last Sunday
+   "ajaxrainMon" ............. rain total last Monday
+   "ajaxrainTue" ............. rain total last Tuesday
+   "ajaxrainWed" ............. rain total last Wednesday
+   "ajaxrainThu" ............. rain total last Thursday
+   "ajaxrainFri" ............. rain total last Friday
+   "ajaxrainSat" ............. rain total last Saturday
+   "ajaxrainydy" ............. rain total Yesterday (for compatibility)
+
+   "ajaxRcdRain" ............. rain record (record all-time daily rain)
+   "ajaxRcdRainTime" ......... rain record time
+   "ajaxRcdRainDate" ......... rain record date
+
+   "ajaxRcdRainHr" ........... rain record Hr (record all-time daily rain in 1 hour)
+   "ajaxRcdRainHrTime" ....... rain record Hr time
+   "ajaxRcdRainHrDate" ....... rain record Hr date
+
+   "ajaxDaysRain" ............ rain days (MTD)
+   "ajaxDaysNoRain" .......... rain absent days
+
+SNOW:
+   "ajaxsnowToday" ........... snow total Today
+   "ajaxsnowMonth" ........... snow total for this Month
+   "ajaxsnowSeason" .......... snow total for Season
+   "ajaxsnowDepth" ........... current snow depth
+
+CURRENT CONDITION ICON:
+   "ajaxcurrentcond" ......... current weather conditions
+   "ajaxconditionicon" ....... current condition icon for Anole Sticker (gif icons 25x25)
+   "ajaxconditionicon2" ...... current condition icon (any size)
+
+WEBCAM:
+   "ajaxwebcamimg" ........... current webcam snap (170x127)
+
+CLOUD HEIGHT:
+   "ajaxcloudheight" ......... cloud height text eg. 2637ft AGL
+   "ajaxcloudheightImg" ...... cloud height image
+
+MOON:
+   "ajaxmoonphase" ........... moon phase names
+   "ajaxmoonimg" ............. moon phase image
+	"ajaxmoonimg100" .......... moon phase image 100x100
+   "ajaxmoonpct" ............. moon illumination %
+
+FIRE RISK:
+   "ajaxfireindex" ........... fire risk index
+   "ajaxfireimg" ............. fire risk image
+
+LIGHTNING:
+   "ajaxlightning" ........... lightning strikes
+   "ajaxlightningtime" ....... lightning strike time
+   "ajaxlightningdist" ....... lightning strike distance
+   "ajaxlightningbearing" .... lightning strike bearing
+
+WET BULB:
+   "ajaxwetbulb" ............. wet bulb temperature
+
+LEAF WETNESS
+   "ajaxVPleaf" .............. current leaf wetness (Davis VP)
+
+CLIENTRAW.TXT DATE & TIME: (the notes below use 16 Apr 2009 @ 14:37:07)
+   "ajaxndate" ............... Apr 16, 2009
+   "ajaxndate2" .............. 16-Apr-2009
+   "ajaxntime" ............... 14:37
+   "ajaxntimess" ............. 14:37:07
+   "ajaxdname" ............... Thu
+   "ajaxdatetime" ............ 16/4/2009 02:37:07pm (WD date & time format)
+   "ajaxdate@" ............... 16/4/2009 @          (clientraw.txt date format)
+   "ajaxdate" ................ 16/4/2009            (clientraw.txt date format)
+   "ajaxtime" ................ 02:37:07pm           (clientraw.txt time format)
+
+INDICATORS:
+   "ajaxindicator" ........... flash indicator for HTTP fetch request (e.g Updated)
+
+DEBUG TAGS:
+   "ajaxupdatecount" ......... number of updates so far
+   "ajaxmaxupdatecount ....... maximum number of updates
+   "ajaxState" ............... HTTP request state
+   "ajaxStatus" .............. HTTP request status
+   "ajaxProgress" ............ progress inside ajaxLoader
+
+
+-------------------------------------------------------------------
+SUMMARY OF CLASS TAGS FOR UOM SWITCHING:
+-------------------------------------------------------------------
+This is used for UOM switching where static values do not have an "ajaxtag".
+NOTE: the value in the span must include the units-of-measure for them be converted.
+Example: <span class="convWind">8.2 mph</span>
+
+   "convTemp" ................ for temperature placeholders (°C, °F)
+   "convWind" ................ for wind speed  placeholders (kts, mph, km/h)
+   "convBaro" ................ for pressure    placeholders (hPa, inHg)
+   "convRain" ................ for rainfall    placeholders (mm, in)
+   "convSnow" ................ for snow depth  placeholders (cm, in)
+   "convDist" ................ for distances   placeholders (km, miles)
+   "convAlti" ................ for altitudes   placeholders (m, ft)
+
+
+-------------------------------------------------------------------
+SUMMARY OF GISMO ID TAGS:
+-------------------------------------------------------------------
+Example: <span class="ajax" id="gizmotemp">77°F</span>
+
+TEMPERATURE (outdoor):
+   "ajaxbigtemp" ............. current temperature - big (no decimal)
+   "gizmotemp" ............... current temperature
+   "gizmotemparrow" .......... rising/falling image
+   "gizmotemprate" ...........
+
+HUMIDITY:
+   "gizmohumidity"  .......... current humidity
+
+DEWPOINT:
+   "gizmodew" ................ current dew point
+
+PRESSURE / BARO:
+   "gizmobaro" ............... current baro pressure
+   "gizmobarotrendtext" ...... baro trend text (rising/steady/falling)
+
+WIND:
+   "gizmowind" ............... current wind speed
+   "gizmogust" ............... current gust speed
+   "gizmowindicon" ........... wind icon arrow direction image
+   "gizmowinddir" ............ wind direction (name e.g. NNW)
+   "gizmowinddeg" ............ wind direction in degrees (e.g. 338°)
+
+UV RATE:
+   "gizmouv" ................. current UV level
+   "gizmouvword" ............. None, Low, Medium, High, Very High, Extreme.
+
+RAIN:
+   "gizmorain" ............... rain total Today
+
+CURRENT CONDITION ICON:
+   "gizmocurrentcond" ........ current weather conditions
+
+CLIENTRAW.TXT DATE & TIME: (the notes below use 16 Apr 2009 @ 14:37:07)
+   "gizmodate" ............... 16/4/2009  (clientraw.txt date format)
+   "gizmotime" ............... 02:37:07pm (clientraw.txt time format)
+
+INDICATORS:
+   "gizmoindicator" .......... flash indicator for HTTP fetch request (e.g Updated)
+
+If you need additional tags please let me know ... I'll ad them with pleasure.

@@ -1,0 +1,1 @@
+Note: this file (network-count.txt) has not been downloaded by get-links.php yet.  Check permissions on the file to allow write all (666)

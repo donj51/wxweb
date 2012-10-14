@@ -1,0 +1,85 @@
+/*
+############################################################################
+# A Project of TNET Services, Inc.
+# CSS external file for wxraindetail.php template page
+############################################################################
+*/
+
+#rain {
+     font-family: verdana;
+     color: #000000;
+}
+
+#rain table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#rain form {
+    display: inline; 
+}
+    
+#rain .labels {
+    background-color: #CC6600;
+    color: #FFFFFF;
+    border: 1px solid #22464F;
+    text-align: center;
+    padding: 2px;
+}
+
+#rain .rainttl {
+    background-color: #CC6600;
+    color: #FFFFFF;
+    border: 1px solid #22464F;
+    font-size: 80%;
+    text-align: center;
+    padding: 2px;
+}   
+    
+#rain .raindt {
+    background-color: #CC6600;
+    color: #FFFFFF;
+    font-size: 95%;
+    font-weight: bold;
+    border: 1px solid #22464F;
+    text-align: center;
+    padding: 2px;
+}
+
+#rain .rainday {
+    background-color: white;
+    font-size: 80%;
+    border: 1px solid #22464F;
+    text-align: center;
+    padding: 2px;
+}   
+
+#rain .raindayr {
+    background-color: #DEA56A;
+    color: #000000;
+    font-size: 80%;
+    border: 1px solid #22464F;
+    text-align: center;
+    padding: 2px;
+}
+
+#rain .getraindtbxfloat {
+    float: right; 
+    padding: 0px 5px 0px 5px; 
+    border: 1px ridge #22464F; 
+    background-color: #CC6600;
+    color: #FFFFFF;
+}
+
+#rain .getraindtbx {
+    font-size: 80%; 
+    font-weight: bold; 
+    padding: 0px;   
+    text-align: center;
+}
+
+#rain .dev {
+	padding: 5px 0px 10px 0px;
+	font-size: 80%;
+}
+

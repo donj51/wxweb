@@ -1,0 +1,77 @@
+var data = {"markers": [
+],
+"nets":{
+
+"NAMWN":{"name":"Namibia Weather Network","url":"http://www.namibiaweather.info/","short":"Namibia","region":"Africa","units":"C,kmh,hPa,mm,m"}
+,
+
+"CAWN":{"name":"Canadian Atlantic Weather Network","url":"http://www.eastcoastweather.net/","short":"Atlantic","region":"Canada","units":"C,kmh,hPa,mm,m"}
+,
+
+"CQWN":{"name":"Quebec Weather Network","url":"http://meteo-quebec.net/","short":"Quebec","region":"Canada","units":"C,kmh,hPa,mm,m"}
+,
+
+"NEWN":{"name":"Northeastern Weather Network","url":"http://www.northeasternweather.net/","short":"North-East","region":"USA","units":"F,mph,inHg,in,ft"}
+,
+
+"BGWN":{"name":"Bulgarian Weather Network","url":"http://www.bgweather.net/BGWN/","short":"Bulgaria","region":"Europe","units":"C,kmh,hPa,mm,m"}
+,
+
+"Nordic":{"name":"Nordic Weather Network","url":"http://www.nordicweather.net/index.php?sivu=100&amp;lang=en","short":"Nordic","region":"Europe","units":"C,m/s,hPa,mm,m"}
+,
+
+"GRWN":{"name":"Hellas Meteo Network","url":"http://www.meteogreece.net/","short":"Greece","region":"Europe","units":"C,kmh,hPa,mm,m"}
+,
+
+"HUWN":{"name":"Hungarian Weather Network","url":"http://www.huweather.com/HUWN/","short":"Hungary","region":"Europe","units":"C,kmh,hPa,mm,m"}
+,
+
+"IRLWN":{"name":"Irish Weather Network","url":"http://www.irelandsweather.com/","short":"Ireland","region":"Europe","units":"C,kmh,mb,mm,m"}
+,
+
+"ITAWN":{"name":"Italian Weather Network","url":"http://www.centroitaliamn.it/","short":"Italy","region":"Europe","units":"C,kmh,hPa,mm,m"}
+,
+
+"SCWN":{"name":"Scottish Weather Network","url":"http://www.scottishweather.net/","short":"Scotland","region":"Europe","units":"C,mph,mb,mm,m"}
+,
+
+"UKWN":{"name":"United Kingdom Weather Network","url":"http://www.metserv.info/page/ukwn.html","short":"United Kingdom","region":"Europe","units":"C,mph,mb,mm,m"}
+,
+
+"AUWN":{"name":"Australia Weather Network","url":"http://www.auweather.net/","short":"Australia","region":"Pacific","units":"C,m/s,hPa,mm,m"}
+,
+
+"NZWN":{"name":"New Zealand Weather Network","url":"http://www.nzweather.net/nzwn.php","short":"New Zealand","region":"Pacific","units":"C,kmh,hPa,mm,m"}
+,
+
+"ARWN":{"name":"Argentina Weather Network","url":"http://www.tiempoarg.com.ar/","short":"Argentina","region":"South America","units":"C,kmh,hPa,mm,m"}
+,
+
+"SEWN":{"name":"Southeastern Weather Network","url":"http://southeasternweather.net/","short":"South-East","region":"USA","units":"F,mph,inHg,in,ft"}
+,
+
+"AKWN":{"name":"Alaskan Weather Network","url":"http://alaskanweather.net/","short":"Alaska","region":"USA","units":"F,mph,inHg,in,ft"}
+,
+
+"SWN":{"name":"Southwestern Weather Network","url":"http://southwesternwx.net/","short":"South-West","region":"USA","units":"F,mph,inHg,in,ft"}
+,
+
+"MSWN":{"name":"Mid-South Weather Network","url":"http://www.midsouthweather.net/","short":"Mid-South","region":"USA","units":"F,mph,inHg,in,ft"}
+,
+
+"RMWN":{"name":"Rocky Mountain Weather Network","url":"http://rockymountainweather.net/","short":"Rocky Mtn.","region":"USA","units":"F,mph,inHg,in,ft"}
+,
+
+"MAWN":{"name":"Mid-Atlantic Weather Network","url":"http://www.midatlanticwx.net/","short":"Mid-Atlantic","region":"USA","units":"F,mph,inHg,in,ft"}
+,
+
+"NWWN":{"name":"Northwest Weather Network","url":"http://www.northwesternweather.net/","short":"North-West","region":"USA","units":"F,mph,inHg,in,ft"}
+,
+
+"MWWN":{"name":"Midwestern Weather Network","url":"http://www.midwesternweather.net/","short":"Mid-West","region":"USA","units":"F,mph,inHg,in,ft"}
+,
+
+"PWN":{"name":"Plains Weather Network","url":"http://plainsweather.net/","short":"Plains","region":"USA","units":"F,mph,inHg,in,ft"}
+}}
+
+alert('Note: this file (global-conditions.json) has not been downloaded by global-conditions-json.php yet.  Check permissions on the file to allow write all (666)');
